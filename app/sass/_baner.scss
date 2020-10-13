@@ -1,0 +1,30 @@
+.baner-text {
+    position: absolute;
+    bottom: 2%;	/*Привязываем к нижней части на случай большого объема текста*/
+    right: 6%;	
+    font:1.5em verdana;
+    padding: 2em; 
+    background:rgba($color: #000000, $alpha: 0.7);
+    width: 50%;
+    color: white;
+
+    img{
+        display:inline-block;
+        width: 16%;
+        height: 4em;
+        margin-bottom: 1em;
+    }
+    
+    h2{
+        text-transform: uppercase;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    p{
+        font-size: 1em;
+        line-height: 1.5em;
+        font-style: italic;
+    }
+}
