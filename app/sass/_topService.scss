@@ -1,81 +1,25 @@
 
-@import'reset';
-@import'container';
-@import'adressPanell';
-@import'menuDesctop';
-@import'mobileMenu';
-@import'mainBlock';
-@import'slaider';
-@import'baner';
-@import'topService';
-
-
-
-
-
-.headlines{
-    h2{margin-top:2.2em; margin-bottom: 1em;}
-
-    font-weight: bold;
-    font-size: 2em;
-}
-p{font-weight: normal;}
-
-
-.simvolmongoose{
-
-    width: 40%;
-    background-color: yellow;
-    border-radius: 100px; 
-    border: 3px solid #ffff00; 
-    box-shadow: 0 0 7px #666;
-    margin-top: 3em;
-    margin-bottom: 0.5em;
-    box-shadow: 0 0 30px orange;
-
-    
-}
-
-.nameForMoblile{
-    color: #3e4156 ;
-}
-
-
 
 @media only screen and (min-width : 280px) and (max-width : 479px){
-
-    .headlines{
-        h2{margin-top: 0.5em; margin-bottom: 0.5em;}    
-        font-size: 2em;
-    }
+                        
+   
+    
 
 };
 
 @media only screen and (min-width : 480px) and (max-width : 629px){
 
-    .headlines{
-        h2{margin-top: 0.5em; margin-bottom: 0.5em;}    
-        font-size: 2em;
-    }
 
 
 };
 
 @media only screen and (min-width : 630px) and (max-width : 767px){
 
-    .headlines{
-        h2{margin-top: 0.5em; margin-bottom: 0.5em;}    
-        font-size: 2em;
-    }
-
-    .simvolmongoose{
-        width: 25%;
-    }
-
-
+   
+    
 };
 
-@media only screen and (min-width : 768px) and (max-width : 849px) {
+@media only screen and (min-width : 767px) and (max-width : 849px) {
 
 
     .container .cols.col-1{width: 8.333333333333333%;}
@@ -90,20 +34,11 @@ p{font-weight: normal;}
     .container .cols.col-10{width: 83.33333333333333%;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
+
+   
     
-    .simvolmongoose{
-
-      display: none;
-    }
-
-    .nameForMoblile{
-        
-        display: none;
-    }
-
-    .BanerForMobile{
-        display: none;
-    }
+    
+   
 };
 
 @media screen and (min-width: 850px) and (max-width:991px) {
@@ -121,17 +56,8 @@ p{font-weight: normal;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
-    .simvolmongoose{
-        display: none;
-    }
-
-    .nameForMoblile{
-        display: none;
-    }
-
-    .BanerForMobile{
-        display: none;
-    }
+    
+    
   
 };
 
@@ -150,17 +76,10 @@ p{font-weight: normal;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
-    .simvolmongoose{
-        display: none;
-    }
+    
+    
 
-    .nameForMoblile{
-        display: none;
-    }
 
-    .BanerForMobile{
-        display: none;
-    }
 };
 
 @media only screen and (min-width : 1024px) and (max-width : 1199px){
@@ -178,17 +97,8 @@ p{font-weight: normal;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
   
-    .simvolmongoose{
-        display: none;
-    }
-
-    .nameForMoblile{
-        display: none;
-    }
-
-    .BanerForMobile{
-        display: none;
-    }
+    
+    
   
 };
 
@@ -207,18 +117,9 @@ p{font-weight: normal;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
+    
+    
 
-    .simvolmongoose{
-        display: none;
-    }
-
-    .nameForMoblile{
-        display: none;
-    }
-
-    .BanerForMobile{
-        display: none;
-    }
     
 };
 
@@ -238,17 +139,14 @@ p{font-weight: normal;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
-    .simvolmongoose{
-        display: none;
-    }
+   .topService{
 
-    .nameForMoblile{
-        display: none;
-    }
+       h2{
 
-    .BanerForMobile{
-        display: none;
-    }
+           margin-top: 2em;
+       }
+   }
+
 };
 
 @media only screen and (min-width : 1920px) and (max-width : 2160px){
@@ -267,15 +165,5 @@ p{font-weight: normal;}
     .container .cols.col-12{width: 100%;}
 
 
-    .simvolmongoose{
-        display: none;
-    }
 
-    .nameForMoblile{
-        display: none;
-    }
-
-    .BanerForMobile{
-        display: none;
-    }
 };
