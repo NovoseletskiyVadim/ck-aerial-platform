@@ -2,13 +2,75 @@
 
 .topService{
 
-    h2{ font-size: 3em; text-transform: uppercase;}
+    h2{ 
+        margin-bottom: 2em;
+        font-size: 3em;
+        text-transform: uppercase; 
+        color:#ed9a00;
+    }
 
 }
 
+.topServiceBlock{
+
+    ul{ 
+        list-style-type:decimal;
+        text-align: left;
+        line-height: 2em;
+        font-size: 1.5em;
+        padding-left: 2.5em;
+        // width: 50%;
+    }
+
+    .topServiseImg{
+
+        float: left;
+        margin-right: 3em;
+        margin-left: 2em;
+        width: 20%;
+    
+    }
+
+}
+
+
+
 @media only screen and (min-width : 280px) and (max-width : 479px){
                         
-   
+    
+    .topService{
+
+        h2{ 
+            margin-bottom: 1em;
+            font-size: 3em;
+            text-transform: uppercase; 
+            color:#ed9a00;
+        }
+    
+    }
+    
+    .topServiceBlock{
+
+        ul{ 
+            padding-top: 1em;
+            text-align: left;
+            line-height:1.5em;
+            font-size: 1.2em;
+            padding-left: 2.5em;
+            width: 100%;
+        }
+    
+        .topServiseImg{
+    
+            margin-right:0;
+            margin-left:0;
+            width: 100%;
+            margin-bottom: 1em;
+        
+        }
+    
+    }
+    
     
 
 };
