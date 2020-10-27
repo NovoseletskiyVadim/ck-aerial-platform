@@ -926,8 +926,8 @@ section {
 .baner-text {
   position: absolute;
   bottom: 2%;
-  right: 6%;
-  font: 1.5em verdana;
+  right: 8%;
+  font: 1.5em Roboto;
   padding: 2em;
   background: rgba(0,0,0,.7);
   width: 50%;
@@ -947,28 +947,44 @@ section {
 }
 .baner-text p {
   font-size: 1em;
-  line-height: 1.5em;
-  font-style: italic
+  line-height: 1.5em
 }
 .banner-text-mobile {
   display: none;
-  background: rgba(0,0,0,.7);
+  background: rgba(237,154,0,.7);
   width: 100%;
-  color: #fff;
+  color: #3e4156;
   margin-top: 2.4em
 }
 .banner-text-mobile h2 {
+  padding-top: 1em;
   text-transform: uppercase;
   font-size: 1.5em;
   line-height: 1.5em;
   margin-bottom: 1em
 }
 .banner-text-mobile p {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5em;
-  font-style: italic
+  padding: .5em
 }
 @media only screen and (min-width:280px) and (max-width:479px) {
+  .baner-text {
+    display: none
+  }
+  .banner-text-mobile {
+    display: block
+  }
+}
+@media only screen and (min-width:480px) and (max-width:629px) {
+  .baner-text {
+    display: none
+  }
+  .banner-text-mobile {
+    display: block
+  }
+}
+@media only screen and (min-width:630px) and (max-width:767px) {
   .baner-text {
     display: none
   }
@@ -1243,6 +1259,7 @@ section {
   }
 }
 .topService h2 {
+  margin-top: 1.5em;
   margin-bottom: 2em;
   font-size: 3em;
   text-transform: uppercase;
@@ -1858,6 +1875,9 @@ img.iconsFast {
   img.iconsFast {
     width: 20%
   }
+}
+body {
+  font-family: Roboto,sans-serif
 }
 .headlines {
   font-weight: 700;
