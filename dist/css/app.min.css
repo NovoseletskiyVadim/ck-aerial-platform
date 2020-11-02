@@ -1877,6 +1877,33 @@ img.iconsFast {
     width: 20%
   }
 }
+.buttonCallMe {
+  border: 2px solid #4166ae;
+  width: 60%;
+  display: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  font-size: 1.1em;
+  background-color: #ffa900
+}
+@media only screen and (min-width:280px) and (max-width:479px) {
+  .buttonCallMe {
+    display: inline-block;
+    height: 3em;
+    line-height: 2.5em;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite
+  }
+  .buttonCallMe a {
+    text-decoration: none
+  }
+  .buttonCallMe a i {
+    -webkit-transform: rotate(160deg);
+    -ms-transform: rotate(160deg);
+    transform: rotate(160deg)
+  }
+}
 body {
   font-family: Roboto,sans-serif
 }
