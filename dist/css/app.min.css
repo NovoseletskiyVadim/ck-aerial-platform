@@ -1897,12 +1897,40 @@ img.iconsFast {
   }
   .buttonCallMe a {
     color: #fff;
+    font-weight: 700;
     text-decoration: none
   }
   .buttonCallMe a i {
     -webkit-transform: rotate(160deg);
     -ms-transform: rotate(160deg);
     transform: rotate(160deg)
+  }
+}
+.telephoneBanner {
+  display: none;
+  background-color: #395ca3;
+  height: 4em;
+  color: bisque;
+  width: 100%
+}
+.telephoneBanner p {
+  line-height: 2.5em;
+  font-size: 1.5em;
+  font-weight: 700
+}
+@media only screen and (min-width:280px) and (max-width:479px) {
+  .telephoneBanner {
+    display: block
+  }
+}
+@media only screen and (min-width:480px) and (max-width:629px) {
+  .telephoneBanner {
+    display: block
+  }
+}
+@media only screen and (min-width:630px) and (max-width:767px) {
+  .telephoneBanner {
+    display: block
   }
 }
 body {
