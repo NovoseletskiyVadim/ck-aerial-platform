@@ -4,17 +4,13 @@
 .buttonCallMe{
 
     border:2px solid #4166AE;
-    background-color: #FFA900;
-    
-    // color: white;
-    
+    background-color: #FFA900;    
     width: 60%;
     display: none;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 20px;
     font-size: 1.1em;
-
 
 }
 
@@ -24,7 +20,6 @@
 
 @media only screen and (min-width : 280px) and (max-width : 479px){
      
-    
 
     .buttonCallMe{
 
@@ -32,8 +27,10 @@
         height: 3em;
         line-height: 2.5em;
         animation: pulsate 1.2s linear infinite;
+
         a{
             color: white;
+            font-weight: bold;
             i{transform: rotate(160deg);}
             text-decoration: none;
 
