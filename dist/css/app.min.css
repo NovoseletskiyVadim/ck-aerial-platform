@@ -1879,13 +1879,13 @@ img.iconsFast {
 }
 .buttonCallMe {
   border: 2px solid #4166ae;
+  background-color: #ffa900;
   width: 60%;
   display: none;
   margin-top: 1em;
   margin-bottom: 1em;
   border-radius: 20px;
-  font-size: 1.1em;
-  background-color: #ffa900
+  font-size: 1.1em
 }
 @media only screen and (min-width:280px) and (max-width:479px) {
   .buttonCallMe {
@@ -1896,6 +1896,7 @@ img.iconsFast {
     animation: pulsate 1.2s linear infinite
   }
   .buttonCallMe a {
+    color: #fff;
     text-decoration: none
   }
   .buttonCallMe a i {
