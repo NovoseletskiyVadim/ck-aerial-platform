@@ -1918,6 +1918,10 @@ img.iconsFast {
   font-size: 1.5em;
   font-weight: 700
 }
+.telephoneBanner p a {
+  text-decoration: none;
+  color: bisque
+}
 @media only screen and (min-width:280px) and (max-width:479px) {
   .telephoneBanner {
     display: block
